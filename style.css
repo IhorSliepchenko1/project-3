@@ -89,3 +89,21 @@ img {
 .avatar {
   max-width: 497px;
 }
+.avatar img {
+  border-radius: 0 0 0 300px;
+  position: relative;
+}
+.border {
+  position: relative;
+  border-radius: 0 0 0 300px;
+  border: 4px solid #000;
+}
+.border-bg {
+  position: absolute;
+  background: #000;
+  top: -12px;
+  right: -7px;
+  width: 100%;
+  border-radius: 0 0 0 300px;
+  height: calc(100% - 30px)
+}
